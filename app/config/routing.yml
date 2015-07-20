@@ -1,3 +1,8 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+ricbra_robots_txt:
+  resource: "@RicbraRobotsTxtBundle/Resources/config/routing.yml"
+  prefix: /
+

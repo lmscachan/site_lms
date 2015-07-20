@@ -1,0 +1,11 @@
+imports:
+  - { resource: config_prod.yml }
+
+ricbra_robots_txt:
+  allow_robots: false
+
+
+framework:
+  router:
+    resource: "%kernel.root_dir%/config/routing_ci.yml"
+    strict_requirements: true

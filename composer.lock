@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eaa24e14e702ab888e976f99ec66251b",
+    "hash": "b7ec3374514a2ac5a202c377284d49dd",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -989,6 +989,54 @@
             "time": "2012-12-21 11:40:51"
         },
         {
+            "name": "ricbra/robots-txt-bundle",
+            "version": "dev-master",
+            "target-dir": "Ricbra/Bundle/RobotsTxtBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ricbra/robots-txt-bundle.git",
+                "reference": "4dfc77a403b0505e826f157387c8316825887d10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ricbra/robots-txt-bundle/zipball/4dfc77a403b0505e826f157387c8316825887d10",
+                "reference": "4dfc77a403b0505e826f157387c8316825887d10",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ricbra\\Bundle\\RobotsTxtBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard van den Brand",
+                    "email": "richard@vandenbrand.org"
+                }
+            ],
+            "description": "Simple Symfony2 which generates robots.txt based on config setting",
+            "keywords": [
+                "crawlers",
+                "robots",
+                "robots.txt",
+                "spiders"
+            ],
+            "time": "2014-10-29 19:41:37"
+        },
+        {
             "name": "sensio/distribution-bundle",
             "version": "v4.0.0",
             "target-dir": "Sensio/Bundle/DistributionBundle",
@@ -1614,7 +1662,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ricbra/robots-txt-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
